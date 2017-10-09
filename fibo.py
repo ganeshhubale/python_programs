@@ -1,6 +1,9 @@
-a, b =0, 1
+
+n=int(input("Enter Number: "))
+a, b = 0, 1
 print(a, b)
-for i in range(10):
-     c=a+b
-     print(c)
-     a,b=b,c
+
+while a < n:
+    b = b + a
+    print(b)
+    a, b = b, a
