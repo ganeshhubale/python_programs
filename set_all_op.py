@@ -1,0 +1,6 @@
+a = set('aaabbbccc')
+print(a)
+b = ('aabbccddddeefeerg')
+a.pop()
+a.add('s')
+print(a)
