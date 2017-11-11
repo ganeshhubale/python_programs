@@ -1,7 +1,12 @@
-#!/usr/bin/env python3
+with open('my.txt', 'w') as fo:
+    fo.write("hello")
+    fo.close()
+with open('my.txt', 'a') as fl:
+    fl.write("next")
+    fl.close()
 
-print(4 * 3)
-print(4 / 3)
-print(4 % 2)
-print(4 + 3)
-print(4 - 2)
+with open('my.txt', 'r') as fp:
+    print(fp.read())
+    fp.close()
+
+    
